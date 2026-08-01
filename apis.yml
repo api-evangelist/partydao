@@ -1,7 +1,17 @@
 aid: partydao
 name: PartyDAO
-description: PartyDAO is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  PartyDAO is the decentralized autonomous organization behind Party Protocol,
+  an open, GPL-3.0 protocol for on-chain group coordination that aims to make
+  Ethereum "multiplayer." Party Protocol lets groups form a Party (a shared
+  Ethereum account with members, an inventory, and governance), collectively
+  crowdfund to acquire assets, govern shared holdings, and distribute value to
+  members — all through audited Solidity smart contracts rather than a hosted
+  HTTP API. PartyDAO also ships Party (party.app), a consumer application built
+  on the protocol. The developer surface is entirely on-chain: smart contracts,
+  deployed contract addresses, and technical documentation for integrating via
+  web3 libraries and direct contract calls. There is no REST/HTTP API, hosted
+  SDK, or OAuth surface; integration happens by calling the deployed contracts.
 url: https://raw.githubusercontent.com/api-evangelist/partydao/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +19,59 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Web3
+- Blockchain
+- Ethereum
+- Smart Contracts
+- Decentralized Governance
+- Crowdfunding
+- DAO
+- On-Chain Coordination
+- Protocol
+image: https://raw.githubusercontent.com/api-evangelist/partydao/refs/heads/main/partydao-logo.png
 apis: []
+common:
+- type: DomainSecurity
+  url: security/partydao-domain-security.yml
+- type: Website
+  url: https://www.party.app
+- type: LLMsTxt
+  url: llms/partydao-llms.txt
+- type: Documentation
+  url: https://docs.partydao.org/
+- type: GitHubOrganization
+  url: https://github.com/PartyDAO
+- type: SourceCode
+  url: https://github.com/PartyDAO/party-protocol
+- type: Blog
+  url: https://party.mirror.xyz/
+- type: Support
+  url: https://discord.gg/zUeXpDX8HA
+- type: Twitter
+  url: https://twitter.com/prtydao
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

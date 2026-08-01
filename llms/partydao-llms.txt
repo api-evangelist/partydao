@@ -1,0 +1,25 @@
+# PartyDAO
+
+> PartyDAO is the decentralized autonomous organization behind Party Protocol, an open, GPL-3.0 protocol for on-chain group coordination that aims to make Ethereum "multiplayer." Groups form a Party (a shared Ethereum account with members, an inventory, and governance), collectively crowdfund to acquire assets, govern shared holdings, and distribute value to members — all through audited Solidity smart contracts. There is no hosted REST/HTTP API, SDK, or OAuth surface; integration happens by calling the deployed contracts directly via web3 libraries.
+
+## Docs
+- [Party Protocol Documentation](https://docs.partydao.org/): Technical documentation of the smart contracts — crowdfund phase, governance phase, distributions, and Party overview.
+- [Introduction](https://docs.partydao.org/docs/Introduction): Protocol introduction and core concepts.
+
+## Source
+- [party-protocol (GitHub)](https://github.com/PartyDAO/party-protocol): Core Party Protocol Solidity contracts (GPL-3.0).
+- [PartyDAO GitHub organization](https://github.com/PartyDAO): All PartyDAO repositories (contracts, deploy tooling, frontends).
+
+## Community
+- [Party (party.app)](https://www.party.app): Consumer application built on Party Protocol.
+- [Blog (Mirror)](https://party.mirror.xyz/): PartyDAO announcements and writing.
+- [Discord](https://discord.gg/zUeXpDX8HA): Developer and user community.
+- [Twitter/X (@prtydao)](https://twitter.com/prtydao): Official account.
+
+## Security
+- Report vulnerabilities to security@partydao.org.
+
+## Notes
+- Interface: Ethereum smart contracts (Solidity), not an HTTP API. No OpenAPI, AsyncAPI, or gRPC surface exists.
+- License: GNU General Public License 3.0 (GPL-3.0).
+- Backed by: a16z.
