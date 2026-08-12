@@ -47,6 +47,9 @@ tags:
 image: https://raw.githubusercontent.com/api-evangelist/partydao/refs/heads/main/partydao-logo.png
 apis: []
 common:
+- type: License
+  name: GPL-3.0
+  url: https://github.com/PartyDAO/party-protocol/blob/main/LICENSE
 - type: DomainSecurity
   url: security/partydao-domain-security.yml
 - type: Website
