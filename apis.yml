@@ -19,6 +19,18 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+deliveryModel:
+  model: self-hosted
+  license: GPL-3.0
+  open_source: true
+  commercial: false
+  callable_host: false
+  label: Self-hosted open source · you run it yourself
+  confidence: high
+  source:
+  - license
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
@@ -47,6 +59,12 @@ tags:
 image: https://raw.githubusercontent.com/api-evangelist/partydao/refs/heads/main/partydao-logo.png
 apis: []
 common:
+- type: IssueTracker
+  url: https://github.com/PartyDAO/party-protocol/issues
+- type: Releases
+  url: https://github.com/PartyDAO/party-protocol/releases
+- type: ContributionGuide
+  url: https://github.com/PartyDAO/party-protocol/blob/main/CONTRIBUTING.md
 - type: License
   name: GPL-3.0
   url: https://github.com/PartyDAO/party-protocol/blob/main/LICENSE
